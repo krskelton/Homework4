@@ -1,0 +1,72 @@
+/* Kristin Skelton 2/6/15 "styles.css"
+Styling for contact form*/
+
+body {
+	margin: 0;
+	background-color: rgba(154,209,216,.5);
+	font-family: 'Muli', sans-serif;
+	font-size: 1.5em;
+}
+
+
+label {
+	display: inline-block;
+	text-align: right;
+	width: 20%;
+	margin-right: 20px;
+}
+
+label:before { 
+	content: '\a' '\a'; 
+	white-space: pre; 
+}
+
+input#button {
+	display: block;
+	margin: auto;
+	width: 100px;
+
+}
+
+input {
+	width: 40%;
+	height: 20px;
+
+}
+
+span {
+	width: 40%;
+}
+
+.content {
+	width: 75%;
+	min-height: 750px;
+	background-color: teal;
+	margin: auto;
+}
+
+
+form {
+	padding-top: 50px;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 3em;
+	margin: 0;
+}
+
+.errorInput {
+	border: solid rgb(255,51,51);
+}
+
+.addInput {
+	border: solid rgb(57,255,20);
+}
+
+.noBorder {
+	border: none;
+}
+

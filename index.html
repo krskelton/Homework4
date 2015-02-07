@@ -1,0 +1,46 @@
+<!-- Kristin Skelton 2/6/15 "index.html"
+This page displays a form for the user to submit their contact information.
+The form will validate with the use of jquery.
+Once submitted the form will display the entries. -->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contact Form</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="js/script.js"></script>
+		
+	</head>
+	<body>		
+		<div class="content">
+			<form id="contactForm" name="contactForm" action="" method="get">
+				<h2>Contact Us</h2>
+				<label for="name">Name: </label>
+				<input id="name" type="text" name="name" placeHolder= "Your Name"/>
+				<span id="nameError">*</span><br>
+
+				<label for="address">Address: </label>
+				<input id="address" type="text" name="address" placeHolder="999 Street Address, City, State, ZipCode" />
+				<span id="addressError">*</span><br>
+
+				<label for="phone">Phone Number: </label>
+				<input id="phone" type="text" name="phone" placeHolder="9991119999" />
+				<span id="phoneError">*</span><br>
+
+				<label for="email">Email: </label>
+				<input id="email" type="email" name="email" placeholder="myemail@domain.com" />
+				<span id="emailError">*</span><br>
+
+				<br/><br/><br/>
+				<input id="button" type="button" value="Submit"/>
+				
+				
+			</form>
+		</div>
+	</body>
+</html>
